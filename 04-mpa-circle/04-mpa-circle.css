@@ -11,6 +11,6 @@
   }
 }
 
-html::view-transition-new(root) {
+/* html::view-transition-new(root) {
   animation-name: slide-in;
-}
+} */
