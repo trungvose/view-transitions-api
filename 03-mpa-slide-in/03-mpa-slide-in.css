@@ -1,0 +1,16 @@
+@view-transition {
+  navigation: auto;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+html::view-transition-new(root) {
+  animation-name: slide-in;
+}
