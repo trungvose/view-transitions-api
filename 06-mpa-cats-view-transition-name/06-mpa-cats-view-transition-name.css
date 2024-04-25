@@ -1,0 +1,7 @@
+@view-transition {
+  navigation: auto;
+}
+
+.banner-img img {
+  max-width: 600px;
+}
